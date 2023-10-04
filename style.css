@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 180px;
+}
+
+.alogo{
+    width: 180px;
+}
+.opcoes{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.5em;
+}
+
+li:hover{
+    color: aqua;
+}
+
+main{
+    background-color: rgba(189, 187, 187, 0.247);
+}
+
+.pq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.pq h1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cardss{
+    border-radius: 20px;
+    width: 340px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+
+}
+
+.cardss h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cardss p{
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.pacotes{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pactoin{
+    display: flex;
+}
+
+.pacotes h2{
+    margin-left: 40px;
+}
+
+.cardpacote{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.txts{
+    display: grid;
+    gap: 4px;
+}
+.cardpacote img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+.preço{
+    font-size: 28px;
+}
+
+.os{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.os img{
+    width: 35px;
+}
+.buscar{
+    width: 500px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.origemDestino{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 80px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.datas, .viajantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+button{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #42B8FF;
+    font-size: 15px;
+    border-color: #42B8FF;
+}
+
+/* Inicialmente, oculte os campos de seleção de cidade */
+.cidade {
+    display: none;
+  }
+  
+  /* Quando a classe ativa é aplicada, exiba o campo de seleção de cidade */
+  .ativa .cidade {
+    display: block;
+  }
+  
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.contato{
+    width: 350px;
+    display: grid;
+    gap: 6px;
+}
+  footer img{
+    width: 250px;
+  }
+
+
+
+  
+  select {
+
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+}
